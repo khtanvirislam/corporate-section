@@ -49,7 +49,7 @@ h6 {
   background-color: #000000ed;
   content: "";
   z-index: -1;
-  opacity: 0.7;
+  opacity: 0.8;
 }
 
 .header {
@@ -169,4 +169,82 @@ h1 {
 .single-service-box:nth-child(2) .single-service-box-inner,
 .single-service-box-inner:hover {
   box-shadow: 0px 0px 10px #20202017;
+}
+
+.cta-inner {
+  display: flex;
+  align-items: center;
+}
+
+.cta-text {
+  width: 40%;
+  margin-right: 50px;
+}
+
+.cta-boxes {
+  display: flex;
+  width: 60%;
+  flex-wrap: wrap;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.single-cta-boxes {
+  width: 50%;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-bottom: 30px;
+}
+
+.single-cta-inner-boxes {
+  padding: 40px;
+  box-shadow: 0 0 10px #0000004d;
+  border-radius: 25px;
+  background-color: #fff;
+}
+
+.cta-icon-box {
+  width: 70px;
+  height: 70px;
+  background-color: #f4f9fc;
+  padding: 20px;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.cta-text h4 {
+  text-transform: uppercase;
+  color: #fb8133;
+  margin-bottom: 20px;
+}
+
+.cta-text h2 {
+  font-size: 55px;
+  line-height: 1.3;
+  margin-bottom: 30px;
+}
+
+.cta-text p {
+  margin-bottom: 20px;
+}
+
+.cta-text ul {
+
+  padding-left: 15px;
+}
+
+.cta-area {
+  position: relative;
+}
+
+
+.cta-area:after {
+  position: absolute;
+  top: 10%;
+  height: 80%;
+  width: 50%;
+  right: 0;
+  content: "";
+  background: #f4f4f9;
+  z-index: -1;
 }
